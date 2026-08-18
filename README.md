@@ -167,8 +167,8 @@ Voici une explication sur comment Discord distribue leur fonctionnalité de mani
                          │            │            │
                          ▼            ▼            ▼
                        STOP       AJUSTEMENT    ROLLOUT +
-                                    │            │
-                                    └─────┬──────┘
+                         │            │            │
+                         └────────────┘───┬────────┘
                                           │
                                           ▼
                                5 % → 10 % → 25 %
