@@ -1,10 +1,12 @@
-                                      DISCORD BACKEND
+Voici une explication sur comment Discord distribue leur fonctionnalité sur les plateformes
+                                      
+                                     DISCORD BACKEND
                                             │
                                             ▼
                               ┌──────────────────────────┐
                               │   FEATURE / EXPERIMENT   │
                               │                          │
-                              │  Exemple : nouvelle UI  │
+                              │  Exemple : nouvelle UI   │
                               │  nouveau bouton, etc.    │
                               └────────────┬─────────────┘
                                            │
@@ -12,14 +14,14 @@
                               ┌──────────────────────────┐
                               │ CONFIGURATION DU TEST    │
                               │                          │
-                              │ • Experiment              │
-                              │ • Revision                │
-                              │ • Treatments / Variants   │
-                              │ • Populations             │
-                              │ • Filters                 │
-                              │ • Rollout                 │
-                              │ • Overrides               │
-                              │ • Holdout                 │
+                              │ • Experiment             │
+                              │ • Revision               │
+                              │ • Treatments / Variants  │
+                              │ • Populations            │
+                              │ • Filters                │
+                              │ • Rollout                │
+                              │ • Overrides              │
+                              │ • Holdout                │
                               └────────────┬─────────────┘
                                            │
                                            ▼
@@ -40,16 +42,16 @@
                                            │
                                            ▼
                               ┌──────────────────────────┐
-                              │       FILTRAGE            │
+                              │       FILTRAGE           │
                               │                          │
-                              │ • compte                  │
-                              │ • serveur                 │
-                              │ • installation            │
-                              │ • plateforme              │
-                              │ • version client          │
-                              │ • build                   │
-                              │ • propriétés client       │
-                              │ • autres critères         │
+                              │ • compte                 │
+                              │ • serveur                │
+                              │ • installation           │
+                              │ • plateforme             │
+                              │ • version client         │
+                              │ • build                  │
+                              │ • propriétés client      │
+                              │ • autres critères        │
                               └────────────┬─────────────┘
                                            │
                               ┌────────────┴────────────┐
@@ -170,7 +172,7 @@
                               │ READY             │
                               │                   │
                               │ Apex experiments  │
-                              │ installation     │
+                              │ installation      │
                               │ assignments       │
                               └─────────┬─────────┘
                                         │
@@ -183,15 +185,15 @@
                          ┌──────────────────────────┐
                          │ EXPERIMENT STORE         │
                          │                          │
-                         │ "Cette installation     │
+                         │ "Cette installation      │
                          │  possède Treatment 1"    │
                          └────────────┬─────────────┘
                                       │
                                       ▼
                          ┌──────────────────────────┐
-                         │ FEATURE FLAG / CONDITION  │
+                         │ FEATURE FLAG / CONDITION │
                          │                          │
-                         │ if (experiment === X)   │
+                         │ if (experiment === X)    │
                          │     afficher feature     │
                          └────────────┬─────────────┘
                                       │
