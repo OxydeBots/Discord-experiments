@@ -97,9 +97,8 @@ Voici une explication sur comment Discord distribue leur fonctionnalité sur les
            FEATURE OFF            FEATURE ON
                                         │
                                         ▼
-══════════════════════════════════════════════════════════════════════
-                         DISTRIBUTION CLIENT
-══════════════════════════════════════════════════════════════════════
+                               DISTRIBUTION CLIENT
+
                                         │
                          ┌──────────────┼──────────────┐
                          │              │              │
@@ -147,9 +146,7 @@ Voici une explication sur comment Discord distribue leur fonctionnalité sur les
                               └─────────┬─────────┘
                                         │
                                         ▼
-══════════════════════════════════════════════════════════════════════
-                              GATEWAY
-══════════════════════════════════════════════════════════════════════
+                                     GATEWAY
                                         │
                                         ▼
                               ┌───────────────────┐
@@ -177,9 +174,7 @@ Voici une explication sur comment Discord distribue leur fonctionnalité sur les
                               └─────────┬─────────┘
                                         │
                                         ▼
-══════════════════════════════════════════════════════════════════════
-                              CLIENT
-══════════════════════════════════════════════════════════════════════
+                                     CLIENT
                                         │
                                         ▼
                          ┌──────────────────────────┐
