@@ -1,3 +1,5 @@
+Voici une explication sur comment Discord distribue leur fonctionnalité de manière aléatoire
+                              
                               DISCORD
                                  │
                                  ▼
@@ -49,9 +51,9 @@
                                       ┌──────────────────────────┐
                                       │ 2. FILTRES               │
                                       │                          │
-                                      │ • User                    │
-                                      │ • Guild                   │
-                                      │ • Guild features          │
+                                      │ • User                   │
+                                      │ • Guild                  │
+                                      │ • Guild features         │
                                       │ • Taille du serveur      │
                                       │ • Âge du serveur         │
                                       │ • ID spécifique          │
@@ -65,7 +67,7 @@
                                       ÉLIGIBLE          PAS ÉLIGIBLE
                                           │                 │
                                           ▼                 ▼
-                               CONTINUE LE TEST       ┌───────────┐
+                               CONTINUE LE TEST        ┌───────────┐
                                           │            │ FEATURE   │
                                           │            │ NON       │
                                           │            │ DISPONIBLE│
@@ -80,7 +82,7 @@
                               │        HASH / BUCKET     │
                               │            │             │
                               │            ▼             │
-                              │       0 ───────── 9999  │
+                              │       0 ───────── 9999   │
                               └────────────┬─────────────┘
                                            │
                                            ▼
